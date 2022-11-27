@@ -1,10 +1,20 @@
-## Getting Started
+## Shorturl Nextjs
 
-API for redirecting from short domain links to raw project oneliners, powered by NextJS 🚀
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thegamerhat/shorturl-nextjs/)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/thegamerhat/shorturl-nextjs)
 
-For example:
+**Say Hello 👋🏻 to short and tidy links.**
 
-### `example.io/install` 👉🏻 `https://raw.githubusercontent.com/username/project/branch/install`
+Fork and deploy this project on Netlify/Vercel to host your short links!
+
+This project uses NextJS API for redirecting from short slug/param links to raw project oneliners 🚀
+
+
+
+
+### For example: `example.io/install` 
+
+##### ❌ `https://raw.githubusercontent.com/username/project/branch/install.sh`
 
 <!-- `example.io/quick-vm` -> `https://raw.githubusercontent.com/thegamerhat/quick-vm/main/oneliner.sh` -->
 
