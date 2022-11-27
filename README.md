@@ -32,6 +32,12 @@ yarn dev
 
 Projects API route can be accessed at [`http://localhost:3000/api/projects/[project]`](http://localhost:3000/api/projects/[project]`). This endpoint can be edited in `pages/api/projects/[project].js`.
 
-### 2. Redirects
+### 2. Redirect from-to Links
+
+For achieving ease of use, convenience, and transparency, the links redirected **from-to** are situated in [`links.json`](/links.json). All the redirect logic is present and easily editable in [`pages/api/projects/[project].js`](pages/api/projects/[project].js)
+
+### 3. Redirects
 
 Requests sent to `/` will be redirected with any parameters such as `/param?abc=123` passed along with the redirect.
+
+This behaviour can be changed in [`next.config.js`](/next.config.js)
